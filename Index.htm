@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Морские коньки</title>
+        <link rel="icon" href="icons/morskoi-koniek.jpg" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+        
+    <body >
+          
+        
+        <div class="container" id="main">
+          
+            <nav class="navbar sticky-top navbar-dark bg-danger navbar-expand-sm" id="Start">
+                <div class="container">
+                <a class="navbar-brand " href="#" id="Brand">
+                   <img src="icons/morskoi-koniek.jpg" width="40" height="40" class="d-inline-block align-top" alt="">
+                     Морские коньки
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#IDofMenu" aria-controls="#IDofMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="IDofMenu">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                                <li class="nav-item" id="Main">
+                                  <a class="dropdown-item" href="#">
+                                    Главная
+                                  </a>
+                                </li>
+                                <li class="nav-item" id="menu1">
+                                  <a class="dropdown-item" href="#" >
+                                    
+                                    Новости
+                                  </a>
+                                </li>
+                                <li class="nav-item" >
+                                  <a class="dropdown-item" href="#" id="menu2">
+                                   
+                                      Обратная связь
+                                  </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="dropdown-item" href="#" id="menu3">
+                                    
+                                     О нас
+                                  </a>
+                                </li>  
+                            </ul>
+
+                            
+                            
+                </div>
+               
+                
+              
+                
+                
+                  
+                  <div class="pl-3">
+                      <button type="button"  class="btn btn-danger" id="sun" data-toggle="tooltip" data-placement="bottom" title="Night mode"><i class="far fa-sun"></i></button>
+                      
+                  </div>
+                </div>
+            </nav>
+
+            <br>
+            <div id="First">
+            <div id="border"  class="shadow-lg p-3 mb-5 bg- rounded" >
+                <div class="jumbotron">
+                    <h1 id="Hello" class="display-4">Привет, друг!</h1>
+                    <p id="Hello" class="lead">  Мы рады, что вы хотите узнать о морских коньках. Всю информация на нашем сайте заполнена профессионалами.</p>
+                    <hr class="my-4">
+                    <p id="Hello">Хотите узнать больше?.</p>
+                    <div id="menu">
+                        <a  class="btn btn-danger btn-lg" href="#wrap" role="button" id="Hello">Узнать больше</a>
+                    </div>
+                    
+                  </div>
+            </div>
+            <br>
+           <p id="Hello" style="font-size: 20px;">Морские коньки (лат. Hippocampus) — род небольших морских лучепёрых рыб семейства игловых отряда иглообразных. В состав рода включают от 54 до 57 видов.
+            Необычная форма тела конька напоминает шахматную фигурку коня. Многочисленные длинные шипы и лентообразные кожистые выросты, расположенные на теле конька, делают его незаметным среди водорослей и недоступным для хищников. Размеры разных видов морских коньков варьируются от 2 до 30 см. Интересная особенность морских коньков заключается в том, что у них потомство вынашивает самец.
+            Морские коньки живут в тропических и субтропических морях. Они ведут малоподвижный образ жизни, прикрепляясь гибкими хвостами к стеблям растений и меняя окраску тела, полностью сливаясь с фоном. Так они защищают себя от хищников и маскируются во время охоты за пищей. Питаются коньки мелкими рачками и креветками. Трубчатое рыльце действует как пипетка — добыча втягивается в рот вместе с водой.
+          </p>
+            <br>
+
+            <div class="row mb-2" id="wrap">
+              <div id="card">
+
+              
+              <div class="card bg-danger" style="width: 18rem;" id="front">
+                <img src="icons/iconfinder_stopwatch_3890934.png" height="50%" width="50%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">О нас</h5>
+                  <p class="card-text">Мы рассказываем вам о морских коньках.</p>
+                </div>
+              </div>
+
+              <div class="card bg-success" style="width: 18rem;" id="back">
+                  <img src="icons/iconfinder_tie_3890932.png" height="50%" width="50%" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Напишите нам</h5>
+                    <p class="card-text"><a href="#" id="friends">Напишите <i style="color:white"  id="ourFriends" class="fas fa-user-friends"></i></a> нам если у вас появились вопросы . Мы обшаеся с вами. </p>
+                  </div>
+                </div>
+              </div>
+
+              <div id="card">
+
+              
+                  <div class="card bg-success" style="width: 18rem;" id="back" >
+                    <img src="icons/1.png" height="50%" width="50%" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Мы можем доставить вам морского конька</h5>
+                      <p class="card-text"> On our site you can find a lot of new <a href="#" id="discounts"><i  class="fab fa-themeisle"></i></a>  discounts.</p>
+                    </div>
+                  </div>
+    
+                  <div class="card bg-danger" style="width: 18rem;" id="front">
+                      <img src="icons/2.png" height="50%" width="50%" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Buy for you</h5>
+                        <p class="card-text">On our site you can buy a lot of things.Buy it now and you will be good man.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="card">
+
+              
+              <div class="card bg-danger" style="width: 18rem;" id="front">
+                <img src="icons/3.png" height="50%" width="50%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Credit</h5>
+                  <p class="card-text"> On our site you can buy a lot of things. But if you don't have enough money you can take credit in our site.</p>
+                </div>
+              </div>
+
+              <div class="card bg-success" style="width: 18rem;" id="back">
+                  <img src="icons/iconfinder_piechart_3890939.png" height="50%" width="50%" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Buy now</h5>
+                    <p class="card-text">Buy now a lot of new things on our site. Do it <a href="#" id="ourBuy" style="color:white"><i class="fas fa-cash-register"></i></a> now.</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <br>
+            <div class="row justify-content-center">
+              <button type="button"  id="SignButton2" class="btn btn-danger mb-3" > Написать нам</button>
+            </div>
+            
+                  <div id="back-top">
+                      <a href="#" id="up">
+                        ВВЕРХ 
+                        <br>
+                        <div  class="m-1">
+                            <i  class="fas fa-chevron-circle-up"></i>
+                        </div>
+                        </a>  
+                    </div>
+                    
+                </div>
+
+                 
+                      
+                      
+                      
+                      
+                      <div id="second">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1558240118851!6m8!1m7!1swtlC16txq2rqFbX2-0599A!2m2!1d26.06331067970493!2d-173.9609750475765!3f120.44350996397003!4f-2.5828847445394985!5f3.325193203789971" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <div id="back-top">
+                            <a href="#" id="up">
+                              ВВЕРХ
+                              <br>
+                              <div class="m-1">
+                                  <i  class="fas fa-chevron-circle-up"></i>
+                              </div>
+                              </a>  
+                          </div>
+                      </div>
+                      
+                      <div id="SignSite">
+                          <form  id="Sign">
+                            <div class="row justify-content-center">
+                                <h1>Напиши нам</h1>
+                            </div>
+                              
+                              <div class="form-row">
+                                  
+                                      <div class="form-group col-md-6">
+                                  
+                                        <label for="inputFirstname">Имя</label>
+                                        <input type="text" class="form-control border-danger" placeholder="First name" id="inputFirstname" >
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                          <label for="inputLastname">Фамилия</label>
+                                        <input type="text" class="form-control border-danger" placeholder="Last name" id="inputLastname">
+                                      </div>
+                                  
+                                <div class="form-group col-md-6">
+                                  <label for="inputEmail4">Email</label>
+                                  <input type="email" class="form-control border-danger" id="inputEmail4" placeholder="Email">
+                                </div>
+                                <div class="form-group col-md-6">
+                                  <label for="inputPassword4">Пароль</label>
+                                  <input type="password" class="form-control border-danger" id="inputPassword4" placeholder="Password">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label for="inputAddress">Адрес</label>
+                                <input type="text" class="form-control border-danger" id="inputAddress" placeholder="1234 Main St">
+                              </div>
+                              
+                              <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <label for="inputCity">Город</label>
+                                  <input type="text" class="form-control border-danger" id="inputCity">
+                                </div>
+                                <div class="form-group col-md-4">
+                                  <label for="inputState">State</label>
+                                  <select id="inputState" class="form-control border-danger">
+                                    <option selected>Choose...</option>
+                                    <option>Томск</option>
+                                    <option> Не Томск</option>
+                                  </select>
+                                </div>
+                                <div class="form-group col-md-2">
+                                  <label for="inputZip">Индекс</label>
+                                  <input type="text" class="form-control border-danger" id="inputZip">
+                                </div>
+                              </div>
+                              <button type="submit" class="btn btn-danger mb-1">Отправить</button>
+                            </form>
+                      </div>
+
+                      
+                      <div id="News">
+                          <ul class="list-unstyled mt-3">
+                              <li class="media m-2">
+                                
+                                  <img src="icons/morskoi-koniek.jpg" class="mr-3" alt="..." height="100px" width="100px">
+                                  <div class="media-body" >
+                                      <h5 class="mt-0 mb-1">Описание морского конька</h5>
+                                      Узнай, как выглядит морской конёк.
+                                    </div>
+                                
+                                
+                              </li>
+                              <li class="media my-4">
+                                <img src="icons/morskoi-koniek_01.jpg" class="mr-3" alt="..." height="100px" width="100px">
+                                <div class="media-body">
+                                  <h5 class="mt-0 mb-1">Половая жизнь морского конька</h5>
+                                  Узнайте, как размножается морской конёк.
+                                </div>
+                              </li>
+                              <li class="media mb-5">
+                                <img src="icons/morskoi-koniek_02.jpg" class="mr-3" alt="..." height="100px" width="100px">
+                                <div class="media-body">
+                                  <h5 class="mt-0 mb-1">Питание морского конька</h5>
+                                    Узнай как питается .
+                                </div>
+                              </li>
+                              <li class="media mb-5">
+                                <img src="icons/morskoi-koniek_03.jpg" class="mr-3" alt="..." height="100px" width="100px">
+                                <div class="media-body">
+                                  <h5 class="mt-0 mb-1">Морские коньки в аквариуме</h5>
+                                  Как ухаживать за морским коньком в аквариуме.
+                                </div>
+                              </li>
+                            </ul>
+                      </div>
+                      
+                      
+                      
+                      </div>
+                     
+        
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+
+    <script type="text/javascript">
+    var a = false;
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    $("#Buy").click(function () { 
+        $('#exampleModal').modal('show');
+        $("#sell").removeClass("active");
+        $("#buy").addClass("active");
+    });
+    $("#ourBuy").click(function () { 
+        $('#exampleModal').modal('show');
+        $("#sell").removeClass("active");
+        $("#buy").addClass("active");
+    });
+    
+    $("#Sell").click(function () { 
+        $('#exampleModal').modal('show');
+        $("#buy").removeClass("active");
+        $("#sell").addClass("active");
+        
+    });
+    
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+    $('[data-toggle="popover"]').popover({
+        trigger: 'focus'
+    })
+    
+    $("#menu3").click(function () { 
+      
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#second").css("display", "block");
+
+      
+    });  
+    $("#Brand").click(function () { 
+      
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#First").css("display", "block");
+    });  
+    $("#Main").click(function () { 
+      
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#First").css("display", "block");
+    });  
+    $("#SignButton").click(function () { 
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#SignSite").css("display", "block");
+    });
+    $("#SignButton2").click(function () { 
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#SignSite").css("display", "block");
+    });
+    $("#EnterButton").click(function () { 
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#Enter").css("display", "block");
+    });
+    $("#menu1").click(function () { 
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#News").css("display", "block");
+    });
+    $("#discounts").click(function () { 
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#News").css("display", "block");
+    });
+    $("#menu2").click(function () { 
+      $("#main").children().css("display", "none");
+      $("#Start").css("display", "block");
+      $("#SignSite").css("display", "block");
+    });
+    
+    $("#sun ").click(function () { 
+
+      if(a==true)
+      {
+        $("body").css({
+         
+        "color": "black"
+      });
+      $("#main").css("background-color", "#007bff");
+      $(".jumbotron").css("background-color", "paleturquoise");
+      $("#border").css("background-color", "paleturquoise");
+      $("#sun").css("color", "black");
+      $("body").css({
+        "background-color":"cyan ",
+       "background-image": 
+        " linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue), linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan), linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue), linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan), linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245)), linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245))",
+        "background-position":" 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px",
+        "background-size": "50px 100px",
+      
+      });
+      $("#sun").removeAttr("data-original-title");
+      $("#sun").attr("data-original-title", "Night mode");
+      $("#modalContent").css({
+        "background-color":"white",
+        "color": "black",
+        
+      });
+      $("#ourFriends").css("color", "white");
+      $("#discounts").css("color", "white");
+      $("#ourBuy").css("color", "white");
+        a=false;
+      }
+
+    else
+    {
+      $("body").css({
+        
+        "color": "white"
+      });
+      $("#main").css("background-color", "black");
+      $(".jumbotron").css("background-color", "lightseagreen");
+      $("#border").css("background-color", "lightseagreen");
+      $("#sun").css("color", "white");
+      $("body").css({
+        "background-color":"darkblue ",
+        "background-image": "linear-gradient(-45deg, transparent 2px, #D1C7BF 2px, transparent 3px), linear-gradient(45deg, transparent 2px, #D1C7BF 2px, transparent 3px)",
+        "background-size": "6px 6px",
+      });
+      $("#sun").removeAttr("data-original-title");
+      $("#sun").attr("data-original-title", "Day mode");
+      $("#modalContent").css({
+        "background-color":"black",
+        "color": "white",
+      });
+      $("#ourFriends").css("color", "black");
+      $("#discounts").css("color", "black");
+      $("#ourBuy").css("color", "black");
+      a=true;
+    }
+    });
+    
+    $('.carousel').carousel({
+      interval: 2000
+    });
+
+    $(document).ready(function(){
+	$("#menu").on("click","a", function (event) {
+		event.preventDefault();
+
+		var id  = $(this).attr('href'),
+
+			top = $(id).offset().top;
+		
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
+});
+(function($) {  
+$(function() {  
+   
+  $('#up').click(function() {  
+    $('body,html').animate({scrollTop:0},500);  
+    return false;  
+  })  
+   
+})  
+})(jQuery)  
+  $("#close").hover(function () {
+        $("#close").css("color", "red");
+        }, function () {
+      }
+      );
+    </script>
+<style>
+      #Hello{
+        font-family: 'Caveat', cursive;
+      }
+      #Friends
+      {
+        display: none;
+      }
+      #discounts
+      {
+        color: white;
+      }
+      #Enter
+      {
+        display: none;
+      }
+      #News
+      {
+        display: none;
+      }
+      #SignButton2
+      {
+        border-radius: 15px;
+      }
+      #SignSite
+      {
+        display: none;
+      }
+      #close
+      {
+        color: red;
+      }
+      #second
+      {
+        display: none;
+      }
+      #sun
+      {
+        color: black;
+      }
+      #main
+      {
+        background-color:#007bff;
+      }
+      .jumbotron
+      {
+        background-color:paleturquoise;
+      }
+      #border
+      {
+        background-color: paleturquoise;
+      }
+      #text
+      {
+        color:red;
+      }
+      #exampleModal
+      {
+        color: black;
+        
+      }
+     
+      #back-top {
+        
+    position: fixed;
+    bottom: 0px;
+    padding: 0px;
+    left: 50%;  
+    margin-left: 570px;
+    z-index:99991;
+    }
+#back-top a{
+    color:gold ;
+    font-weight: bold;
+    width: 77px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    display:block;
+    text-decoration:none;
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    text-align: center;
+     
+    }
+ 
+#back-top a:hover{
+    height: 70px;
+    background:slateblue;
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    color: #fff;
+    }
+    body {
+        transition: 1s;   
+        background-color:cyan ;
+        background-image: 
+        linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue),
+        linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan),
+        linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue),
+        linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan),
+        linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245)), 
+        linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245));
+        background-position: 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px;
+        background-size: 50px 100px;
+
+}
+#modalContent
+{
+  background-color:white;
+  color: black;
+}
+#wrap {
+  
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  perspective: 1000px;
+}
+#front, #back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+#back {
+  
+  transform: rotateY(180deg);
+}
+
+
+#card:hover #front {transform: rotateY(180deg);}
+#card:hover #back {transform: rotateY(360deg);}
+    </style>
+    </body>
+</html>
