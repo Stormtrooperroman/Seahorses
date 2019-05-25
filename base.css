@@ -1,0 +1,157 @@
+#Hello{
+    font-family: 'Caveat', cursive;
+  }
+  #Friends
+  {
+    display: none;
+  }
+  #discounts
+  {
+    color: white;
+  }
+  #Enter
+  {
+    display: none;
+  }
+  #News
+  {
+    display: none;
+  }
+  #SignButton2
+  {
+    border-radius: 15px;
+  }
+  #SignSite
+  {
+    display: none;
+  }
+  #close
+  {
+    color: red;
+  }
+  #second
+  {
+    display: none;
+  }
+  #sun
+  {
+    color: black;
+  }
+  #main
+  {
+    background-color:#007bff;
+    font-family: 'Caveat', cursive;
+    
+  }
+  .jumbotron
+  {
+    background-color:paleturquoise;
+  }
+  #border
+  {
+    background-color: paleturquoise;
+  }
+  #text
+  {
+    color:red;
+  }
+  #exampleModal
+  {
+    color: black;
+    
+  }
+ 
+  #back-top {
+    
+position: fixed;
+bottom: 0px;
+padding: 0px;
+left: 50%;  
+margin-left: 570px;
+z-index:99991;
+}
+#back-top a{
+color:gold ;
+font-weight: bold;
+width: 77px;
+height: 30px;
+background: rgba(0, 0, 0, 0.5);
+display:block;
+text-decoration:none;
+-webkit-transition: all linear 0.2s; 
+-moz-transition: all linear 0.2s;
+-ms-transition: all linear 0.2s;
+-o-transition: all linear 0.2s;
+transition: all linear 0.2s;
+text-align: center;
+ 
+}
+
+#back-top a:hover{
+height: 70px;
+background:slateblue;
+-webkit-transition: all linear 0.2s; 
+-moz-transition: all linear 0.2s;
+-ms-transition: all linear 0.2s;
+-o-transition: all linear 0.2s;
+transition: all linear 0.2s;
+color: #fff;
+}
+body {
+    transition: 1s;   
+    background-color:cyan ;
+    background-image: 
+    linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue),
+    linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan),
+    linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue),
+    linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan),
+    linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245)), 
+    linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245));
+    background-position: 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px;
+    background-size: 50px 100px;
+
+}
+#modalContent
+{
+background-color:white;
+color: black;
+}
+#wrap {
+
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#card {
+width: 300px;
+height: 300px;
+position: relative;
+perspective: 1000px;
+}
+#front, #back {
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 1s;
+backface-visibility: hidden;
+border-radius: 10px;
+}
+
+#back {
+
+transform: rotateY(180deg);
+}
+
+
+#card:hover #front {transform: rotateY(180deg);}
+#card:hover #back {transform: rotateY(360deg);}

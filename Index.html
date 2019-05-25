@@ -9,17 +9,18 @@
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     </head>
         
     <body >
-          
         
+      <link rel="stylesheet" href="base.css">
+       
         <div class="container" id="main">
           
             <nav class="navbar sticky-top navbar-dark bg-danger navbar-expand-sm" id="Start">
                 <div class="container">
-                <a class="navbar-brand " href="#" id="Brand">
+                <a class="navbar-brand " href="#" id="Brand" style="font-size:15px;">
                    <img src="icons/morskoi-koniek.jpg" width="40" height="40" class="d-inline-block align-top" alt="">
                      Морские коньки
                 </a>
@@ -77,7 +78,7 @@
                     <h1 id="Hello" class="display-4">Привет, друг!</h1>
                     <p id="Hello" class="lead">  Мы рады, что вы хотите узнать о морских коньках. Всю информация на нашем сайте заполнена профессионалами.</p>
                     <hr class="my-4">
-                    <p id="Hello">Хотите узнать больше?.</p>
+                    <p id="Hello" style="font-size:18px;">Хотите узнать больше?.</p>
                     <div id="menu">
                         <a  class="btn btn-danger btn-lg" href="#wrap" role="button" id="Hello">Узнать больше</a>
                     </div>
@@ -107,7 +108,7 @@
                   <img src="icons/iconfinder_tie_3890932.png" height="50%" width="50%" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Напишите нам</h5>
-                    <p class="card-text"><a href="#" id="friends">Напишите <i style="color:white"  id="ourFriends" class="fas fa-user-friends"></i></a> нам если у вас появились вопросы . Мы обшаеся с вами. </p>
+                    <p class="card-text"><a href="#" id="Write">Напишите   <i style="color:white"  id="ourFriends" class="fas fa-user-friends"></i></a> нам если у вас появились вопросы . Мы обшаеся с вами. </p>
                   </div>
                 </div>
               </div>
@@ -119,15 +120,15 @@
                     <img src="icons/1.png" height="50%" width="50%" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Мы можем доставить вам морского конька</h5>
-                      <p class="card-text"> On our site you can find a lot of new <a href="#" id="discounts"><i  class="fab fa-themeisle"></i></a>  discounts.</p>
+                      <p class="card-text"> Всегда хотели домашнего морского конька? Купите его  <a href="#" id="discounts"><i style="color:white" class="far fa-money-bill-alt"></i></a></p>
                     </div>
                   </div>
     
                   <div class="card bg-danger" style="width: 18rem;" id="front">
                       <img src="icons/2.png" height="50%" width="50%" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Buy for you</h5>
-                        <p class="card-text">On our site you can buy a lot of things.Buy it now and you will be good man.</p>
+                        <h5 class="card-title">Новости</h5>
+                        <p class="card-text">Интересные новости всегда у нас.</p>
                       </div>
                     </div>
                   </div>
@@ -137,16 +138,16 @@
               <div class="card bg-danger" style="width: 18rem;" id="front">
                 <img src="icons/3.png" height="50%" width="50%" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Credit</h5>
-                  <p class="card-text"> On our site you can buy a lot of things. But if you don't have enough money you can take credit in our site.</p>
+                  <h5 class="card-title">Нужны морские коньки?</h5>
+                  <p class="card-text"> Любые морские коньки на ваш выбор.</p>
                 </div>
               </div>
 
               <div class="card bg-success" style="width: 18rem;" id="back">
                   <img src="icons/iconfinder_piechart_3890939.png" height="50%" width="50%" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Buy now</h5>
-                    <p class="card-text">Buy now a lot of new things on our site. Do it <a href="#" id="ourBuy" style="color:white"><i class="fas fa-cash-register"></i></a> now.</p>
+                    <h5 class="card-title">О нас</h5>
+                    <p class="card-text">Вы не равнодушны к морским конькам? Приходите <a href="#" id="our" style="color:white"><i class="fas fa-cash-register"></i></a> сейчас.</p>
                   </div>
                 </div>
               </div>
@@ -198,11 +199,11 @@
                                       <div class="form-group col-md-6">
                                   
                                         <label for="inputFirstname">Имя</label>
-                                        <input type="text" class="form-control border-danger" placeholder="First name" id="inputFirstname" >
+                                        <input type="text" class="form-control border-danger" placeholder="Имя" id="inputFirstname" >
                                       </div>
                                       <div class="form-group col-md-6">
                                           <label for="inputLastname">Фамилия</label>
-                                        <input type="text" class="form-control border-danger" placeholder="Last name" id="inputLastname">
+                                        <input type="text" class="form-control border-danger" placeholder="Фамилия" id="inputLastname">
                                       </div>
                                   
                                 <div class="form-group col-md-6">
@@ -211,7 +212,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                   <label for="inputPassword4">Пароль</label>
-                                  <input type="password" class="form-control border-danger" id="inputPassword4" placeholder="Password">
+                                  <input type="password" class="form-control border-danger" id="inputPassword4" placeholder="Пароль">
                                 </div>
                               </div>
                               <div class="form-group">
@@ -225,17 +226,21 @@
                                   <input type="text" class="form-control border-danger" id="inputCity">
                                 </div>
                                 <div class="form-group col-md-4">
-                                  <label for="inputState">State</label>
+                                  <label for="inputState">Страна</label>
                                   <select id="inputState" class="form-control border-danger">
-                                    <option selected>Choose...</option>
-                                    <option>Томск</option>
-                                    <option> Не Томск</option>
+                                    <option selected>Страна...</option>
+                                    <option>Россия</option>
+                                    <option> Не Россия</option>
                                   </select>
                                 </div>
                                 <div class="form-group col-md-2">
                                   <label for="inputZip">Индекс</label>
                                   <input type="text" class="form-control border-danger" id="inputZip">
                                 </div>
+                                <div class="form-group col-md-2">
+                                  <p><textarea class=" border-danger" rows="10" cols="100" name="text"></textarea></p>
+                                </div>
+                                
                               </div>
                               <button type="submit" class="btn btn-danger mb-1">Отправить</button>
                             </form>
@@ -283,339 +288,10 @@
                       </div>
                      
         
-    <script src="js/jquery-3.3.1.min.js" ></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js" ></script>
-
-    <script type="text/javascript">
-    var a = false;
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })
-    $("#Buy").click(function () { 
-        $('#exampleModal').modal('show');
-        $("#sell").removeClass("active");
-        $("#buy").addClass("active");
-    });
-    $("#ourBuy").click(function () { 
-        $('#exampleModal').modal('show');
-        $("#sell").removeClass("active");
-        $("#buy").addClass("active");
-    });
     
-    $("#Sell").click(function () { 
-        $('#exampleModal').modal('show');
-        $("#buy").removeClass("active");
-        $("#sell").addClass("active");
-        
-    });
-    
-    $(function () {
-        $('[data-toggle="popover"]').popover()
-    })
-    $('[data-toggle="popover"]').popover({
-        trigger: 'focus'
-    })
-    
-    $("#menu3").click(function () { 
-      
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#second").css("display", "block");
-
-      
-    });  
-    $("#Brand").click(function () { 
-      
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#First").css("display", "block");
-    });  
-    $("#Main").click(function () { 
-      
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#First").css("display", "block");
-    });  
-    $("#SignButton").click(function () { 
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#SignSite").css("display", "block");
-    });
-    $("#SignButton2").click(function () { 
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#SignSite").css("display", "block");
-    });
-    $("#EnterButton").click(function () { 
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#Enter").css("display", "block");
-    });
-    $("#menu1").click(function () { 
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#News").css("display", "block");
-    });
-    $("#discounts").click(function () { 
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#News").css("display", "block");
-    });
-    $("#menu2").click(function () { 
-      $("#main").children().css("display", "none");
-      $("#Start").css("display", "block");
-      $("#SignSite").css("display", "block");
-    });
-    
-    $("#sun ").click(function () { 
-
-      if(a==true)
-      {
-        $("body").css({
-         
-        "color": "black"
-      });
-      $("#main").css("background-color", "#007bff");
-      $(".jumbotron").css("background-color", "paleturquoise");
-      $("#border").css("background-color", "paleturquoise");
-      $("#sun").css("color", "black");
-      $("body").css({
-        "background-color":"cyan ",
-       "background-image": 
-        " linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue), linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan), linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue), linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan), linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245)), linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245))",
-        "background-position":" 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px",
-        "background-size": "50px 100px",
-      
-      });
-      $("#sun").removeAttr("data-original-title");
-      $("#sun").attr("data-original-title", "Night mode");
-      $("#modalContent").css({
-        "background-color":"white",
-        "color": "black",
-        
-      });
-      $("#ourFriends").css("color", "white");
-      $("#discounts").css("color", "white");
-      $("#ourBuy").css("color", "white");
-        a=false;
-      }
-
-    else
-    {
-      $("body").css({
-        
-        "color": "white"
-      });
-      $("#main").css("background-color", "black");
-      $(".jumbotron").css("background-color", "lightseagreen");
-      $("#border").css("background-color", "lightseagreen");
-      $("#sun").css("color", "white");
-      $("body").css({
-        "background-color":"darkblue ",
-        "background-image": "linear-gradient(-45deg, transparent 2px, #D1C7BF 2px, transparent 3px), linear-gradient(45deg, transparent 2px, #D1C7BF 2px, transparent 3px)",
-        "background-size": "6px 6px",
-      });
-      $("#sun").removeAttr("data-original-title");
-      $("#sun").attr("data-original-title", "Day mode");
-      $("#modalContent").css({
-        "background-color":"black",
-        "color": "white",
-      });
-      $("#ourFriends").css("color", "black");
-      $("#discounts").css("color", "black");
-      $("#ourBuy").css("color", "black");
-      a=true;
-    }
-    });
-    
-    $('.carousel').carousel({
-      interval: 2000
-    });
-
-    $(document).ready(function(){
-	$("#menu").on("click","a", function (event) {
-		event.preventDefault();
-
-		var id  = $(this).attr('href'),
-
-			top = $(id).offset().top;
-		
-		$('body,html').animate({scrollTop: top}, 1500);
-	});
-});
-(function($) {  
-$(function() {  
-   
-  $('#up').click(function() {  
-    $('body,html').animate({scrollTop:0},500);  
-    return false;  
-  })  
-   
-})  
-})(jQuery)  
-  $("#close").hover(function () {
-        $("#close").css("color", "red");
-        }, function () {
-      }
-      );
-    </script>
-<style>
-      #Hello{
-        font-family: 'Caveat', cursive;
-      }
-      #Friends
-      {
-        display: none;
-      }
-      #discounts
-      {
-        color: white;
-      }
-      #Enter
-      {
-        display: none;
-      }
-      #News
-      {
-        display: none;
-      }
-      #SignButton2
-      {
-        border-radius: 15px;
-      }
-      #SignSite
-      {
-        display: none;
-      }
-      #close
-      {
-        color: red;
-      }
-      #second
-      {
-        display: none;
-      }
-      #sun
-      {
-        color: black;
-      }
-      #main
-      {
-        background-color:#007bff;
-      }
-      .jumbotron
-      {
-        background-color:paleturquoise;
-      }
-      #border
-      {
-        background-color: paleturquoise;
-      }
-      #text
-      {
-        color:red;
-      }
-      #exampleModal
-      {
-        color: black;
-        
-      }
-     
-      #back-top {
-        
-    position: fixed;
-    bottom: 0px;
-    padding: 0px;
-    left: 50%;  
-    margin-left: 570px;
-    z-index:99991;
-    }
-#back-top a{
-    color:gold ;
-    font-weight: bold;
-    width: 77px;
-    height: 30px;
-    background: rgba(0, 0, 0, 0.5);
-    display:block;
-    text-decoration:none;
-    -webkit-transition: all linear 0.2s; 
-    -moz-transition: all linear 0.2s;
-    -ms-transition: all linear 0.2s;
-    -o-transition: all linear 0.2s;
-    transition: all linear 0.2s;
-    text-align: center;
-     
-    }
- 
-#back-top a:hover{
-    height: 70px;
-    background:slateblue;
-    -webkit-transition: all linear 0.2s; 
-    -moz-transition: all linear 0.2s;
-    -ms-transition: all linear 0.2s;
-    -o-transition: all linear 0.2s;
-    transition: all linear 0.2s;
-    color: #fff;
-    }
-    body {
-        transition: 1s;   
-        background-color:cyan ;
-        background-image: 
-        linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue),
-        linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan),
-        linear-gradient(30deg, darkblue 12%, transparent 12.5%, transparent 87%, darkcyan 87.5%, darkblue),
-        linear-gradient(150deg, darkcyan 12%, transparent 12.5%, transparent 87%, darkblue 87.5%, darkcyan),
-        linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245)), 
-        linear-gradient(60deg, rgb(10, 170, 245) 25%, transparent 25.5%, transparent 75%, rgb(31, 34, 212) 75%, rgb(10, 170, 245));
-        background-position: 0 0, 0 0, 25px 50px, 25px 50px, 0 0, 25px 50px;
-        background-size: 50px 100px;
-
-}
-#modalContent
-{
-  background-color:white;
-  color: black;
-}
-#wrap {
-  
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#card {
-  width: 300px;
-  height: 300px;
-  position: relative;
-  perspective: 1000px;
-}
-#front, #back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 1s;
-  backface-visibility: hidden;
-  border-radius: 10px;
-}
-
-#back {
-  
-  transform: rotateY(180deg);
-}
-
-
-#card:hover #front {transform: rotateY(180deg);}
-#card:hover #back {transform: rotateY(360deg);}
-    </style>
+      <script src="js/jquery-3.3.1.min.js" ></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js" ></script>
+      <script type="text/javascript" src="main.js"></script> 
     </body>
 </html>
